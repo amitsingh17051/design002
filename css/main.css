@@ -1,0 +1,291 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding-left: 20px;
+  padding-right: 20px; }
+
+.main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding-left: 20px;
+  padding-right: 20px; }
+
+.mt-1 {
+  padding-top: 35px; }
+
+.mt-2 {
+  padding-top: 70px; }
+
+.mt-3 {
+  padding-top: 105px; }
+
+.mt-4 {
+  padding-top: 140px; }
+
+.text-w {
+  color: white; }
+
+.text-p {
+  color: #04081a; }
+
+.text-center {
+  text-align: center; }
+
+.headline-1 {
+  font-size: 82px;
+  line-height: 100px;
+  font-weight: bold; }
+
+.headline-2 {
+  font-size: 32px;
+  line-height: 100px;
+  font-weight: bold; }
+
+.btn {
+  border: none;
+  padding: 15px 50px;
+  max-width: 400px; }
+
+.btn-block {
+  color: #04081a;
+  background: white; }
+
+.btn-outline {
+  color: white;
+  background: none;
+  border: 2px solid white; }
+
+.link-item {
+  font-size: 10px;
+  font-weight: 100; }
+
+.sub-text {
+  font-size: 12px;
+  color: #acacb3; }
+
+@media screen and (max-width: 768px) {
+  .clients {
+    margin-top: 0px !important; }
+  .client-logos .logo {
+    margin-top: 0 !important;
+    display: grid;
+    grid-template-columns: 1fr 1fr !important;
+    align-items: center; }
+  .contacts {
+    margin-top: 0px !important; } }
+
+@media screen and (max-width: 500px) {
+  .headline-1 {
+    font-size: 54px !important;
+    line-height: 50px;
+    font-weight: bold;
+    padding-top: 100px !important; }
+  .whatWeDo {
+    margin-top: 150px;
+    background-color: #04081a;
+    color: white;
+    padding: 100px 20px !important; }
+  .banner {
+    background: url("../images/banner.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px !important; }
+    .banner .btn {
+      width: 200px;
+      margin-top: 20px; }
+  .clients {
+    margin-top: 50px !important;
+    padding: 20px !important; }
+  .client-logos .logo {
+    margin-top: 0 !important;
+    display: grid;
+    grid-template-columns: 1fr !important;
+    align-items: center; }
+  .contacts {
+    margin-top: 0px !important; }
+  .row {
+    display: grid;
+    grid-template-columns: 1fr !important; }
+    .row .service-box {
+      padding: 20px !important; }
+  .main {
+    display: grid;
+    grid-template-columns: 1fr !important; }
+    .main form {
+      margin-top: 50px; }
+  footer .main {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column; }
+  .footer-nav {
+    margin-bottom: 20px; }
+    .footer-nav .nav {
+      display: flex; } }
+
+* {
+  box-sizing: border-box; }
+
+body {
+  font-family: montserrat; }
+
+.banner {
+  background: url("../images/banner.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 680px; }
+
+a {
+  color: white;
+  text-decoration: none; }
+
+.navbar {
+  display: flex;
+  justify-content: space-between; }
+  .navbar .nav {
+    display: flex; }
+    .navbar .nav li {
+      padding-left: 30px; }
+
+.service .row {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center; }
+  .service .row .service-box {
+    padding: 30px; }
+    .service .row .service-box img {
+      width: 50px;
+      margin-bottom: 20px; }
+    .service .row .service-box p {
+      color: #04081a !important; }
+
+.whatWeDo {
+  margin-top: 150px;
+  background-color: #04081a;
+  color: white;
+  padding: 80px;
+  text-align: center; }
+  .whatWeDo h1 {
+    font-size: 40px;
+    margin-bottom: 20px; }
+  .whatWeDo p {
+    line-height: 25px; }
+
+.clients {
+  margin-top: 100px;
+  color: white;
+  padding: 80px;
+  text-align: center; }
+  .clients h1 {
+    color: #04081a;
+    font-size: 40px;
+    margin-bottom: 20px; }
+  .clients p {
+    line-height: 25px; }
+  .clients .client-logos .logo {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center; }
+    .clients .client-logos .logo img {
+      padding: 30px;
+      width: 100%; }
+
+.contacts {
+  padding: 50px 20px;
+  margin-top: 100px;
+  background-color: #04081a;
+  color: white; }
+  .contacts .main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    padding-left: 10px; }
+    .contacts .main h2 {
+      font-size: 22px;
+      margin-bottom: 10px; }
+    .contacts .main p {
+      line-height: 20px;
+      margin-bottom: 10px;
+      width: 80%; }
+    .contacts .main form {
+      display: flex;
+      flex-direction: column; }
+      .contacts .main form input, .contacts .main form textarea {
+        background: none;
+        border: 2px white solid;
+        outline: none;
+        margin-bottom: 20px; }
+      .contacts .main form input {
+        padding: 10px; }
+      .contacts .main form button {
+        padding: 10px;
+        background: white;
+        border: none; }
+
+footer .main {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; }
+  footer .main .recent-project p {
+    font-size: 12px;
+    font-weight: 100;
+    padding-top: 5px; }
+
+.footer-nav .nav {
+  display: flex; }
+  .footer-nav .nav li {
+    padding-left: 10px; }
+    .footer-nav .nav li a {
+      color: #04081a;
+      font-size: 10px !important; }
